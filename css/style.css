@@ -1,0 +1,553 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  font-size: 14px;
+  width: 100%;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+}
+
+.logo {
+  width: 50%;
+}
+
+.logo img {
+  height: 45px;
+  padding: 10px;
+}
+.list ul {
+  display: flex;
+  list-style: none;
+  padding-left: 210px;
+  align-items: center;
+}
+
+.list a {
+  font-weight: 900;
+  text-decoration: none;
+  padding: 0px 0px 0px 50px;
+  color: black;
+}
+
+.list button {
+  background-color: rgb(170, 210, 54);
+  width: 130px;
+  padding: 9px 34px;
+  border: none;
+  font-weight: inherit;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.cover {
+  background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png");
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  z-index: -1;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h3 {
+  font-size: 44px;
+  width: 100%;
+  max-width: 1100px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 8.8px;
+  margin: auto;
+}
+
+.content p {
+  padding-top: 70px;
+  width: 80%;
+  margin: auto;
+  font-size: 15px;
+  font-weight: 400;
+  color: #6b6a6a;
+}
+
+.card1 i {
+  font-size: 96px;
+  color: #fff;
+  transition: all 0.3s;
+}
+.card1:hover i {
+  transform: scale(1.1, 1.1);
+}
+.steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.brush {
+  background-color: #91ac41;
+}
+
+.card2 {
+  background-color: #5acda6;
+}
+
+.card1 {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bag {
+  background-color: #e4b476;
+}
+
+.card1 div {
+  padding: 0px 40px;
+  padding-top: 50px;
+}
+
+.card1 div h3 {
+  padding: 30px 0px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.smile {
+  background-color: #f69dad;
+}
+
+.card1 div p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  margin-top: 0;
+  color: #fff;
+  font-weight: 590;
+}
+
+.store {
+  background-color: #f7eee2;
+  height: 100vh;
+  display: flex;
+  justify-content: ;
+  align-items: ;
+  text-align: center;
+}
+
+.store .div {
+  padding-top: 70px;
+}
+
+.item-wrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 70px;
+  width: 80%;
+  display: flex;
+  justify-content: stretch;
+  margin: auto;
+}
+
+.camera {
+  width: 140px;
+  height: 140px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  margin-bottom: 20px;
+  background-color: #e3b375;
+  transition: all 0.3s;
+}
+
+.p p {
+  color: #91ac41;
+  font-size: 24px;
+  font-family: "Caveat", cursive;
+  margin: 0;
+  margin-top: 35px;
+}
+
+.h3 h3 {
+  font-size: 44px;
+  font-weight: 600;
+  padding: 10px 0px;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.par p {
+  font-size: 16px;
+  font-weight: 590;
+  margin: 0;
+  color: #8b8b99;
+  letter-spacing: 0.5px;
+  margin-bottom: 55px;
+}
+
+.camera i {
+  font-size: 60px;
+  padding: 10px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.camera:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.item h3 {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.item p {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  color: #8b8b99;
+  padding: 0px 20px;
+}
+
+.reviews {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+.wrap .green {
+  color: #91ac41;
+  font-size: 24px;
+  font-family: "Caveat", cursive;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.wrap h3 {
+  font-size: 44px;
+  font-weight: 600;
+  padding: 10px 0px;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.wrap p {
+  font-size: 16px;
+  font-weight: 590;
+  margin: 0;
+  color: #8b8b99;
+  letter-spacing: 0.5px;
+  margin-bottom: 55px;
+  width: 70%;
+  margin: auto;
+}
+
+.reviewers {
+  display: flex;
+  padding-top: 100px;
+}
+
+.review1 {
+  margin: 0px 10px;
+  width: 90%;
+  text-align: center;
+  background-color: #f5f6fb;
+  padding: 10px 30px;
+  margin: 16px;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  transition: box-shadow 0.3s;
+  margin-bottom: 140px;
+}
+
+.review1:hover {
+  box-shadow: 0 5px 5px 5px rgb(233, 233, 233);
+}
+
+.review1 img {
+  margin-top: 20px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+.review1 p {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #8b8b99;
+  letter-spacing: 0.5px;
+  font-style: italic;
+  margin: 0;
+}
+
+.review1 h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 24px;
+  margin-bottom: 0px;
+}
+
+.jim {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 24px;
+  margin-bottom: 0px;
+  padding-top: 40px;
+}
+
+.follow {
+  display: flex;
+  justify-content: stretch;
+}
+
+.img {
+  width: 70%;
+}
+
+.img img {
+  width: 100%;
+}
+
+.sub {
+  margin-top: 30%;
+  margin-left: 20%;
+}
+
+.sub h3 {
+  font-size: 44px;
+  margin-bottom: 14px;
+}
+
+.sub p {
+  color: #8d8d8d;
+  font-size: 16px;
+  letter-spacing: 0.5;
+  width: 60%;
+  margin: auto;
+  font-weight: 600;
+  line-height: 1.6;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.sub input {
+  width: 80%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 500;
+  background-color: white;
+  padding: 12px;
+  color: #8b8b99;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 60px;
+  display: block;
+  z-index: 1;
+}
+
+.subscribe {
+  background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.btn {
+  background-color: #f69dad;
+  padding: 16px 42px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  border: 0;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 16px;
+}
+
+.btn:hover {
+  color: #f69dad;
+  border: 1px solid #f69dad;
+  background-color: transparent;
+}
+
+.numbers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  background-color: #f6fcfa;
+}
+
+.num {
+  padding: 0 64px;
+}
+
+.num h3 {
+  font-size: 44px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.num p {
+  color: #57e3b5;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-style: italic;
+  margin: 0;
+}
+
+.line {
+  width: 150px;
+  display: block;
+  height: 1px;
+  background-color: #e4b476;
+  margin: auto;
+}
+
+.video {
+  text-align: center;
+}
+
+.video iframe {
+  margin-top: 52px;
+  width: 100%;
+  height: 425px;
+  margin-bottom: 150px;
+}
+
+.video h3 {
+  color: #8b8b99;
+  font-size: 44px;
+  font-weight: 400;
+  padding-top: 30px;
+  margin-bottom: 36px;
+}
+
+.contact {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: 800px;
+}
+
+.right {
+  width: 100%;
+  margin-left: 150px;
+}
+
+.moto {
+  width: 70%;
+  color: #8b8b99;
+}
+
+.right h1 {
+  font-size: 44px;
+  padding: 20px 0px;
+}
+
+.right h3 {
+  padding: 20px 0px;
+}
+
+.right p {
+  width: 40%;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8b8b99;
+  letter-spacing: 0.5px;
+  padding-bottom: 10px;
+}
+
+.green p {
+  color: #91ac41;
+  font-size: 24px;
+  font-family: "Caveat", cursive;
+  margin: 0;
+  margin-top: 35px;
+}
+
+.left .green {
+  color: #91ac41;
+  font-size: 24px;
+  font-family: "Caveat", cursive;
+  margin: 0;
+  margin-top: 35px;
+  padding-bottom: 0px;
+}
+
+.left {
+  width: 100%;
+}
+
+.left p {
+  width: 100%;
+}
+
+.left h1 {
+  font-size: 44px;
+  padding: 20px 0px;
+}
+
+.left input,
+textarea {
+  width: 90%;
+  padding: 16px;
+  font-size: 16px;
+  color: #8b8b99;
+  border-radius: 6px;
+  border: 1px solid #e5e6ec;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+
+.btn1 {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(170, 210, 54);
+  padding: 16px 42px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 16px;
+}
+
+
+footer{
+    background-color: #232323;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 30px 0px;
+    font-weight: 600;
+}
